@@ -74,6 +74,8 @@ docs: prepare CHANGELOG for version x.x.x
 
 ### 3. Commit early, commit often
 
+It is better to work in small chunks and keep committing your work, instaed of waiting to make it perfect. If you are working on a feature branch that could take some time to finish, it helps you keep your code updated with the latest changes so that you avoid conflicts.
+
 ### 4. Pull request norms
 
 - A PR should be divided into independently mergeable parts also encourages simpler, more decoupled designs. If possible, try to break your PR down into pieces which are independent of each other.
