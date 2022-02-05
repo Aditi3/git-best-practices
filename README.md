@@ -24,7 +24,7 @@ Some good practice includes:
 - Wrap the subject line at 50 characters and body at 72 characters
 
 <p>
-<img alt="Light" src="/commit-message.png" width="85%">
+<img alt="Light" src="/commit-message.png">
 </p> 
 
 #### Format of the commit message:
