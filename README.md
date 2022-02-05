@@ -1,6 +1,6 @@
 # Git Best Practices
 
-The motivation of this repo is to curate git best practices in one place and make more people aware of standards followed by industry. Especially one that involves collaboration with others, it is better to establish conventions to follow lest we shoot ourselves in the foot.
+The motivation of this repo is to curate git best practices in one place and make more people aware of standards followed by industry. Especially one that involves collaboration with others, it is better to establish conventions to follow.
 
 ### 1. Make clean, single-purpose commits
 
@@ -22,6 +22,10 @@ Some good practice includes:
 - Use the body to explain what and why the change was made. This part should be added only when necessary
 - Remove unnecessary punctuation marks
 - Wrap the subject line at 50 characters and body at 72 characters
+
+<p>
+<img alt="Light" src="/commit-message.png" width="85%">
+</p> 
 
 #### Format of the commit message:
 
