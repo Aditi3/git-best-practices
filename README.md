@@ -1,10 +1,10 @@
 # Git Best Practices
 
-Motivation of this repo is to curate Git best practices at one place and to make more people aware about standards followed by industry. Especially one that involves collaboration with others, it is better to establish conventions to follow lest we shoot ourselves in the foot.
+The motivation of this repo is to curate git best practices in one place and make more people aware of standards followed by industry. Especially one that involves collaboration with others, it is better to establish conventions to follow lest we shoot ourselves in the foot.
 
 ### 1. Make clean, single-purpose commits
 
-A commit should be a wrapper for related changes. For example, fixing two different bugs should produce two separate commits. It is better to keep commits as small and focused as possible for many reasons, some of them includes:
+A commit should be a wrapper for related changes. For example, fixing two different bugs should produce two separate commits. It is better to keep commits as small and focused as possible for many reasons, some of them include:
 
 - It makes it easier for other developers in the team to understand the changes, making code reviews more efficient
 - If the commit has to be rolled back completely, it's far easier to do so
@@ -13,7 +13,7 @@ A commit should be a wrapper for related changes. For example, fixing two differ
 
 ### 2. Write meaningful commit messages
 
-Insightful and descriptive commit messages that briefly describe what changes are being made as part of a commit make life easier for others as well as your future self. Keep in mind that your team members will need to be able to read this message and understand exactly what you have done.
+Insightful and descriptive commit messages that briefly describe what changes are being made as part of a commit make life easier for others and your future self. Keep in mind that your team members will need to be able to read this message and understand exactly what you have done.
 
 Some good practice includes:
 
@@ -74,7 +74,7 @@ docs: prepare CHANGELOG for version x.x.x
 
 ### 3. Commit early, commit often
 
-It is better to work in small chunks and keep committing your work, instaed of waiting to make it perfect. If you are working on a feature branch that could take some time to finish, it helps you keep your code updated with the latest changes so that you avoid conflicts.
+It is better to work in small chunks and keep committing your work, instead of waiting to make it perfect. If you are working on a feature branch that could take some time to finish, it helps you keep your code updated with the latest changes so that you avoid conflicts.
 
 ### 4. Pull request norms
 
