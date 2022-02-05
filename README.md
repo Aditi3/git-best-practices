@@ -51,9 +51,18 @@ feat: add foo support
 - `refactor`: refactoring production code, eg. renaming a variable
 - `test`: adding missing tests, refactoring tests; no production code change
 - `chore`: regular code maintenance and updating grunt tasks etc; no production code change (eg: change to .gitignore file or .prettierrc file)
-- `build`: build related changes (eg: npm related/ adding external dependencies
+- `build`: build related changes, for updating build configuration, development tools or other changes irrelevant to the user (eg: npm related/ adding external dependencies)
 
-##### Examples:
+#### Examples:
+
+```
+fix: prevent racing of requests
+
+Introduce a request id and a reference to latest request. Dismiss
+incoming responses other than from latest request.
+
+Refs: #123
+```
 
 ### 3. Commit early, commit often
 
