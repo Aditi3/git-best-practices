@@ -70,7 +70,15 @@ incoming responses other than from latest request.
 Resolves: #123
 ```
 
-##### Commit message with no body
+##### Commit message with body and no footer
+
+```
+fix: remove string template from client code
+
+It is incompatible with IE
+```
+
+##### Commit message with no body and no footer
 
 ```
 docs: prepare CHANGELOG for version x.x.x
