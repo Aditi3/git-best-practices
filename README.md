@@ -34,7 +34,14 @@ The commit message structure as follows/ Format of the commit message:
 
 [optional footer(s)]
 ```
-
+```
+<type>(<optional scope>): <subject>
+<BLANK LINE>
+<optional body>
+<BLANK LINE>
+<optional footer(s)>
+```
+  
 ```
 feat: add foo support
 ^--^  ^------------^
