@@ -55,13 +55,21 @@ feat: add foo support
 
 #### Examples:
 
+##### Commit message with body and footer
+
 ```
 fix: prevent racing of requests
 
 Introduce a request id and a reference to latest request. Dismiss
 incoming responses other than from latest request.
 
-Refs: #123
+Resolves: #123
+```
+
+##### Commit message with no body
+
+```
+docs: prepare CHANGELOG for version x.x.x
 ```
 
 ### 3. Commit early, commit often
