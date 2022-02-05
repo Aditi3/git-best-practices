@@ -21,19 +21,10 @@ Some good practice includes:
 - Do not end the commit message(subject line) with a period
 - Use the body to explain what and why the change was made. This part should be added only when necessary
 - Remove unnecessary punctuation marks
-- Wrap the subject line aat 50 characters and body at 72 characters
+- Wrap the subject line at 50 characters and body at 72 characters
 
-Write your commit message in present tense (up to 50 characters) and always leave the second line blank. This separates your subject line from the body to ensures only the subject line displays. .
+#### Format of the commit message:
 
-The commit message structure as follows/ Format of the commit message:
-
-```
-<type>[optional scope]: <description>
-
-[optional body]
-
-[optional footer(s)]
-```
 ```
 <type>(<optional scope>): <subject>
 <BLANK LINE>
@@ -62,7 +53,7 @@ feat: add foo support
 - `chore`: regular code maintenance and updating grunt tasks etc; no production code change (eg: change to .gitignore file or .prettierrc file)
 - `build`: build related changes (eg: npm related/ adding external dependencies
 
-Examples:
+##### Examples:
 
 ### 3. Commit early, commit often
 
