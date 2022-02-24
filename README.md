@@ -93,3 +93,7 @@ It is better to work in small chunks and keep committing your work, instead of w
 - A PR should be divided into independently mergeable parts also encourages simpler, more decoupled designs. If possible, try to break your PR down into pieces which are independent of each other.
 - Each PR review must have at least 1-2 developer approvals. If it’s just a simple docs change or a typo fix, feel free to skip this step.
 - Each PR must have a good description. From reading the description, the reviewer should be able to understand what the code is meant to do. This has to be true even if there is a Jira ticket or a requirements page.
+
+### Reference
+- https://www.conventionalcommits.org/en/v1.0.0/
+- https://deepsource.io/blog/git-best-practices/#2-write-meaningful-commit-messages
