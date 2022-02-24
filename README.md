@@ -56,7 +56,7 @@ feat: add foo support
 - `test`: adding missing tests, refactoring tests; no production code change
 - `chore`: regular code maintenance and updating grunt tasks etc; no production code change (eg: change to .gitignore file or .prettierrc file)
 - `build`: build related changes, for updating build configuration, development tools or other changes irrelevant to the user (eg: npm related/ adding external dependencies/ podspec related)
-- perf: code change that improves performance
+- `perf`: code change that improves performance
 
 #### Examples:
 
