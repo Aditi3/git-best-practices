@@ -56,6 +56,7 @@ feat: add foo support
 - `test`: adding missing tests, refactoring tests; no production code change
 - `chore`: regular code maintenance and updating grunt tasks etc; no production code change (eg: change to .gitignore file or .prettierrc file)
 - `build`: build related changes, for updating build configuration, development tools or other changes irrelevant to the user (eg: npm related/ adding external dependencies/ podspec related)
+- perf: code change that improves performance
 
 #### Examples:
 
@@ -94,6 +95,6 @@ It is better to work in small chunks and keep committing your work, instead of w
 - Each PR review must have at least 1-2 developer approvals. If it’s just a simple docs change or a typo fix, feel free to skip this step.
 - Each PR must have a good description. From reading the description, the reviewer should be able to understand what the code is meant to do.
 
-### Reference
+### References
 - https://www.conventionalcommits.org
 - https://deepsource.io/blog/git-best-practices/
