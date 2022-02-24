@@ -95,5 +95,5 @@ It is better to work in small chunks and keep committing your work, instead of w
 - Each PR must have a good description. From reading the description, the reviewer should be able to understand what the code is meant to do. This has to be true even if there is a Jira ticket or a requirements page.
 
 ### Reference
-- https://www.conventionalcommits.org/en/v1.0.0/
-- https://deepsource.io/blog/git-best-practices/#2-write-meaningful-commit-messages
+- https://www.conventionalcommits.org
+- https://deepsource.io/blog/git-best-practices/
