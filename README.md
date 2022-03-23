@@ -17,7 +17,7 @@ Insightful and descriptive commit messages that briefly describe what changes ar
 
 Some good practice includes:
 
-- Use the imperative, present tense: "change" not "changed" nor "changes" for your commit message
+- Use the imperative, present tense: "change" not "changed" nor "changes" for your commit message (written in lower case)
 - Do not end the commit message(subject line) with a period
 - Use the body to explain what and why the change was made. This part should be added only when necessary
 - Remove unnecessary punctuation marks
