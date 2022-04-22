@@ -43,7 +43,7 @@ feat: add foo support
 |     |
 |     +-> Summary(commit message subject line) in present tense
 |
-+-------> Type: chore, docs, feat, fix, refactor, style, or test
++-------> Type: chore, docs, feat, fix, refac, style, or test
 ```
 
 "type" must be one of the following:
@@ -52,7 +52,7 @@ feat: add foo support
 - `fix`: bug fix for the user, not a fix to a build script
 - `docs`: changes to the documentation
 - `style`: formatting, missing semi colons, etc; no production code change
-- `refactor`: refactoring production code, eg. renaming a variable
+- `refac`: refactoring production code, eg. renaming a variable
 - `test`: adding missing tests, refactoring tests; no production code change
 - `chore`: regular code maintenance and updating grunt tasks etc; no production code change (eg: change to .gitignore file or .prettierrc file)
 - `build`: build related changes, for updating build configuration, development tools or other changes irrelevant to the user (eg: npm related/ adding external dependencies/ podspec related)
