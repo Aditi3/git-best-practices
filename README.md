@@ -1,6 +1,8 @@
-# Git Best Practices
+# Git Best Practices - How to Write Meaningful Commits, and Effective Pull Requests
 
 The purpose of this repository is to gather the best practices for using git in one convenient location and to educate more people about the standards used by the industry. When collaborating with others, it is important to establish conventions to follow.
+
+## Commit Messages norms
 
 ### 1. Make clean, single-purpose commits
 
@@ -89,12 +91,13 @@ docs: prepare CHANGELOG for version x.x.x
 
 I suggest working in smaller portions and frequently committing to your progress instead of striving for perfection. This approach is particularly beneficial when working on a feature branch that may take a while to complete as it ensures that your code remains up-to-date and minimizes potential conflicts.
 
-### 4. Pull request norms
+
+## Pull request norms
 
 - A PR should be divided into independently mergeable parts also encourages simpler, more decoupled designs. If possible, try to break your PR down into pieces which are independent of each other.
 - Each PR review must have at least 1-2 developer approvals. If it’s just a simple docs change or a typo fix, feel free to skip this step.
 - Each PR must have a good description. From reading the description, the reviewer should be able to understand what the code is meant to do.
 
-### References
+## References
 - https://www.conventionalcommits.org
 - https://deepsource.io/blog/git-best-practices/
