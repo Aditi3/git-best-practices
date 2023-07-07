@@ -2,7 +2,7 @@
 
 The purpose of this repository is to gather the best practices for using git in one convenient location and to educate more people about the standards used by the industry. When collaborating with others, it is essential to establish conventions to follow.
 
-## Commit Messages norms
+## Commit Message norms
 
 ### 1. Make clean, single-purpose commits
 
@@ -101,15 +101,19 @@ docs: prepare CHANGELOG for version x.x.x
 
 #### Here's an example of a PR with related commit messages -
 
-  - feat: add an XYZ support
-  - test: add unit tests for an XYZ
-  - docs: add documentation for an XYZ
+> feat: add an XYZ support
+> 
+> test: add unit tests for an XYZ
+> 
+> docs: add documentation for an XYZ
 
-#### Here's an example of a PR with unrelated commit messages and not recommended - 
+#### Here's an example of a PR with unrelated commit messages(not recommended) - 
 
-  - feat: add an XYZ support
-  - fix: add fix for ABC feature
-  - refac: refactor QPR feature code
+> feat: add an XYZ support
+> 
+> fix: add fix for ABC feature
+> 
+> refac: refactor QPR feature code
 
 It seems there is a lot happening and alterations have been made across various sections of the code base. It would be more effective to split up the commit messages into multiple PRs that focus on specific and relevant changes.
 
